@@ -21,11 +21,12 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick
+    @OnClick(R.id.signin)
     public void signin() {
         String username = mUsernameInput.getText().toString();
 
         Intent intent = new Intent(this, StatusActivity.class);
+        intent.putExtra("username", username);
         startActivity(intent);
     }
 }

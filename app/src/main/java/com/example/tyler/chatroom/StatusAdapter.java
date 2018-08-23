@@ -18,6 +18,11 @@ class StatusAdapter extends RecyclerView.Adapter<StatusAdapter.MyStatusViewHolde
         mStatuses = allStatuses;
     }
 
+    public void setStatuses(List<Status> statusList){
+        mStatuses = statusList;
+        this.notifyDataSetChanged();
+    }
+
     @Override
     public MyStatusViewHolder onCreateViewHolder(ViewGroup parent, int ViewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
