@@ -5,6 +5,9 @@
 * [Read and Write Data](https://firebase.google.com/docs/database/android/read-and-write)
 * [Working with Lists of Data](https://firebase.google.com/docs/database/android/lists-of-data)
 
+Refer to database structure and grab icon images from here:
+<https://github.com/codefellows/seattle-java-401d1/tree/master/class-33-firebase-realtime-database/screenshots>
+
 "Status" is something chatrooms use to allow users to quickly report on what
 they're doing. Status in this app is a combination of a type of status (online,
 away, or offline) and a line of text describing what the user is doing.
